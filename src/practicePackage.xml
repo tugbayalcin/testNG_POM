@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="package calistirma" verbose ="5">
+    <test name="smoke test">
+        <packages>
+            <package name="tests.practice"></package>
+        </packages>
+    </test>
+</suite>
+
+<!-- package calistirirken eger tum class'lardan rapor istiyorsam her bir class'a extend TestBase yapip,
+createTest objesi olusturmam gerekiyor, yoksa yalnizca bu islemi yaptigim classlarin raporu olusur -->

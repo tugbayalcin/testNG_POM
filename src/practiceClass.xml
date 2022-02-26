@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="practice rapor icin" verbose ="5" >
+    <!-- verbose degeri : console da cikan testle ilgili aciklama satir sayisidir 0-10 arasinda deger alir-->
+    <test name="Html reports">
+        <classes>
+            <!--yorum yazmak icin  -->
+            <class name="tests.practice.P1_DemoGuruTest"></class>
+        </classes>
+    </test>
+</suite>
